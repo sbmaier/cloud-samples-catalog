@@ -1,0 +1,7 @@
+steps:
+  cloudFoundryDeploy:
+    cloudFoundry:
+      credentialsId: 'a2ed4876-1b15-4402-857e-f83d967691dd'
+      apiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
+      org: 'epm'
+      space: 'bernd'
