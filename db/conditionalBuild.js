@@ -1,6 +1,6 @@
 var fs = require("fs");
 var childproc = require("child_process");
-console.log("[MB] conditionalBuild.js";
+console.log("[MB] conditionalBuild.js");
 if (fs.existsSync("../package.json")) { // true at build-time, false at CF staging time
 	var npmInstallCmd = "npm install";
 	if (process.env.npm_config__sap_registry) {
